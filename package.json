@@ -1,7 +1,7 @@
 {
   "name": "rage-sitev1",
   "version": "1.0.0",
-  "description": "",
+  "description": "test site using node and packaged for npm dist",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Serious-Rage/rage-siteV1/issues"
   },
-  "homepage": "https://github.com/Serious-Rage/rage-siteV1#readme"
+  "homepage": "https://github.com/Serious-Rage/rage-siteV1#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0"
+  }
 }

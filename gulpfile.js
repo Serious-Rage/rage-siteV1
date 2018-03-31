@@ -16,7 +16,7 @@ gulp.task('html', function() {
 gulp.task('styles', function() {
    // console.log("automated SASS or PostCSS tasks running here")
   return gulp.src('./app/assets/styles/styles.css')
-  .pipe(postcss([cssvars, nested,autoprefixer]))
+  .pipe(postcss([cssvars, nested, autoprefixer]))
   .pipe(gulp.dest('./app/temp/styles'));
 });
 

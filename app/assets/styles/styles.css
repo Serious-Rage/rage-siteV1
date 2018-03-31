@@ -1,16 +1,19 @@
-$mainBlue: #2f5572;
+/* $mainBlue: #2f5572; */
 
 body{
-    padding: 10px;
+    font-family: 'Roboto', sans-serif;
     background-color: grey;
-    color: $mainBlue;
-    columns: 300px 2;
+    color: #333;
+  /*  columns: 300px 2; columns: 300px 2; */
 
 }
 
+
+/*
 .box {
     a {
         display:block;
         padding: 10px;
     }
 }
+*/
